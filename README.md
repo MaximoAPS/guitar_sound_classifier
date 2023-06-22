@@ -11,7 +11,7 @@ Spectrogram: The short-time Fourier transform is used to compute the spectrogram
 Mel spectrogram: A mel spectrogram is computed using a mel filterbank.
 MFCC: Mel frequency cepstral coefficients (MFCCs) are extracted.
 These 3 features are stacked to form a 3-channel "image" representing the guitar sound.
-![Diagrama del modelo]([Data Image.png](https://github.com/MaximoAPS/guitar_sound_classifier/blob/main/Data%20Image.png?raw=true))
+![Diagrama del modelo](https://raw.githubusercontent.com/MaximoAPS/guitar_sound_classifier/main/Data%20Image.png)
 
 
 The label (acoustic or electric) is determined based on the file path.
