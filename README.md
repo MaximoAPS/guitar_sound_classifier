@@ -34,3 +34,4 @@ Plot of validation accuracy.
 ![Diagrama del modelo](https://raw.githubusercontent.com/MaximoAPS/guitar_sound_classifier/main/Validation%20Accuracy.png)
 
 Although there is still much room for improvement, it is a good start. The model is suitable for any binary classification of sound data. Practically all the code and refinement was done in 24 hours with the assistance of ChatGPT on a home computer.
+Although I have a good foundation in machine learning, this was my first attempt with deep learning and PyTorch.
