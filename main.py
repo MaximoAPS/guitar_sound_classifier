@@ -26,7 +26,7 @@ class GuitarSoundDataset(Dataset):
         file_path = self.file_paths[idx]
         waveform, sample_rate = torchaudio.load(file_path)
 
-        # Asegurarse de que el waveform tenga una longitud de 4410
+        # Asegurarse de que el waveform tenga una longitud deseada
         if waveform.shape[1] < 63*100:
             num_repeats = 63*100 // waveform.shape[1] + 1
             repeated_waveform = waveform.repeat(1, num_repeats)
