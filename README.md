@@ -1,7 +1,7 @@
-#Guitar Sound Classifier
+# Guitar Sound Classifier
 
 This project contains a dataset and model for classifying guitar sounds as either acoustic or electric based on spectrograms and MFCC features.
-Dataset
+## Dataset
 The dataset loads .wav files of acoustic and electric guitar notes from two folders:
 acoustic_note_*.wav
 note_*.wav (electric)
@@ -19,7 +19,7 @@ The label (acoustic or electric) is determined based on the file path.
 
 The resulting image was analyzed using two layers of CNNs, taking advantage of the effectiveness of this type of networks for image analysis.
 
-Model
+## Model
 The model uses the following architecture:
 3x64 convolutional layer
 LeakyReLU activation
@@ -33,4 +33,4 @@ Plot of validation accuracy.
 
 ![Diagrama del modelo](https://raw.githubusercontent.com/MaximoAPS/guitar_sound_classifier/main/Validation%20Accuracy.png)
 
-
+Although there is still much room for improvement, it is a good start. The model is suitable for any binary classification of sound data. Practically all the code and refinement was done in 24 hours with the assistance of ChatGPT on a home computer.
